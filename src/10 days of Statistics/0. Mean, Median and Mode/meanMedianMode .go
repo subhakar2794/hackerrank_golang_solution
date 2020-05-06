@@ -84,25 +84,6 @@ func median(a []float64) float64 {
 	return md
 }
 
-// this inital mode fuction worked for all but one test case.
-//will be rectifed in due time
-//func mode(a []float64) float64{
-//  sort.Float64s(a)
-// mod:=-1.0
-//maxcount:=-1
-//count:=0
-//for _,v:= range a{
-
-//  if mod==v{
-//    count++
-//}else if count>maxcount{
-//  mod=v
-//maxcount=count
-//}
-//}
-//fmt.Println(mod)
-//return mod
-//}
 func mode(a []float64) float64 {
 	mod := -1.0
 	maxcount := -1
